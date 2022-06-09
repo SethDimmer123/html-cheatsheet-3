@@ -8,9 +8,32 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form>
-        <label for="">Email</label>
-        <input type="text"/><!--Self closing tag-->
+    <form>              
+            <div>
+                <label>Email</label>
+                <input type="email" required/><!--Self closing tag-->
+            </div>   <!--You edit the margin in css-->  
+            <div>
+                <label>Password</label>
+                <input type="password"/><!--Self closing tag-->
+            </div>
+            <label> Confirm Password</label>
+            <input type="password"/><!--Self closing tag-->
+        </div>
+            <div>
+                <label>Age</label>
+                <input type="number"/><!--Self closing tag-->
+            </div>
+            <div>
+                <label>Date</label>
+                <input type="date"/>
+            </div>
+            <!-- Text area  -->
+            <div>
+                <label>Date</label>
+                <textarea rows="10"></textarea>
+            </div>
+            <button>Submit</button>
     </form>
 </body>
 </html>
